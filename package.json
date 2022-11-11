@@ -1,0 +1,27 @@
+{
+  "name": "spotify-app",
+  "version": "1.0.0",
+  "description": "Spotify Web App",
+  "main": "spotify.js",
+  "type": "module",
+  "scripts": {
+    "start": "npx web-dev-server --node-resolve --watch --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinagrace-sadia/spotify-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinagrace-sadia/spotify-app/issues"
+  },
+  "homepage": "https://github.com/vinagrace-sadia/spotify-app#readme",
+  "dependencies": {
+    "lit": "^2.4.1"
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.1.35"
+  }
+}
